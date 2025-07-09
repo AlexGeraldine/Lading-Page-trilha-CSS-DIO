@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+}
+h1{
+    background: linear-gradient( #33a8db, #1472b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+/******************************************************************************************************************************************/
+header{
+    background-image: url(assets/banner.png), linear-gradient(to top,rgba(0,0,0), rgb(4, 36, 49), rgba(0,0,0) );
+    text-align: center;
+    height: 610px;
+    border-bottom: 2px solid #33a8db;
+    color: white;
+}
+
+header picture img{
+    padding: 10px;
+    border: 10px solid;
+    border-color: #08384d00;
+    border-radius: 50%;
+    background-color: rgba(3, 26, 36, 0.288);
+    margin-top: 1%;
+    width: 300px;
+    height: 268px;
+    
+}
+
+ 
+
+header p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+header button{
+      padding: 15px 30px;
+      border: 2px solid #00bfff; 
+      background: transparent;
+      font-size: 16px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-image: linear-gradient( #33a8db, #1472b7);
+      transition: all 0.3s ease;
+     
+}
+/******************************************************************************************************************************************/
+
+.modulos{
+    background-color: black;
+    color: white;
+    height: 500px;
+    text-align: center;   
+    padding: 150px;
+    border-bottom: 2px solid #33a8db;
+}
+
+.modulos p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.modulos li{
+   background-color: rgba(37,37,37,1); 
+   border: 1px solid rgba(51,168,219,1);
+   border-radius: 57px;
+   width: 535px;
+   height: 28px;
+   text-align: center;
+   margin: auto;
+   padding: 16px  ;
+   list-style: none;
+   font-size: 18px;
+   
+}
+
+.modulos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modulos li span{
+    background: linear-gradient( #33a8db, #1472b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/******************************************************************************************************************************************/
+
+.imagem-mulher {
+  width: 100%;
+  height: 300px;
+  background-image: url(assets/muie-codigos.webp);
+  background-attachment: fixed;
+  background-size: cover; 
+  display: flex;
+  padding: 0;
+  
+}
+
+.mensagem {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  padding: 244px 141px 111px 198px;
+  border-bottom: 2px solid #33a8db;
+    
+}
+
+.mensagem span{
+    text-shadow: -1px 5px #33a8db;
+
+}
+/******************************************************************************************************************************************/
+
+.evolucao{
+     background-color: black;
+    color: white;
+    height: 600px;
+    text-align: center;   
+    padding: 100px;
+    border-bottom: 2px solid #33a8db;
+}
+
+.evolucao img{
+    width: 659px;
+    height: 429px;
+}
+
+.evolucao p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/******************************************************************************************************************************************/
+
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;   
+    padding: 50px;
+    
+}
+
+footer p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    background: linear-gradient( #33a8db, #1472b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+}
+
